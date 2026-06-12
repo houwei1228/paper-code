@@ -26,7 +26,7 @@ The empirical analysis is organized around the following workflow:
 .
 ├── 01数据清洗.py        # Data cleaning and preprocessing
 ├── 02 EDA.py            # Exploratory data analysis
-├── 03.py                # Baseline empirical analysis
+├── 03 基准回归.py         # Baseline empirical analysis
 ├── 04异质性.py          # Heterogeneity analysis
 ├── 05机器学习.py        # Machine learning analysis
 └── README.md            # Project description
@@ -67,17 +67,6 @@ This script contains the main empirical analysis of the thesis.
 
 It is used to examine the relationship between digital diffusion and women’s labor market outcomes. The analysis may include baseline regression models and robustness-related checks.
 
-Suggested file name improvement:
-
-```text
-03基准回归.py
-```
-
-or
-
-```text
-03Baseline_Analysis.py
-```
 
 ### 04异质性.py
 
@@ -147,7 +136,7 @@ The scripts are intended to be run in the following order:
 ```bash
 python 01数据清洗.py
 python "02 EDA.py"
-python 03.py
+python 03 基准回归.py
 python 04异质性.py
 python 05机器学习.py
 ```
@@ -161,11 +150,6 @@ Please make sure that the data files are stored in the correct local directory b
 * Some scripts may require modification of local file paths before running.
 * Chinese file names may appear as escaped characters in Git Bash or Windows CMD. This does not affect the actual files on GitHub.
 
-To improve filename display in Git, you may run:
-
-```bash
-git config --global core.quotepath false
-```
 
 ## Author
 
