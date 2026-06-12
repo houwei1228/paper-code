@@ -2,7 +2,7 @@
 
 ## Evidence from a Global Panel
 
-This repository contains the Python code used for my undergraduate thesis:
+This repository contains the Python code used for my postgraduate thesis:
 
 **Digital Diffusion and the Quality–Quantity Trade-off in Women’s Labor Market Outcomes: Evidence from a Global Panel**
 
